@@ -6,5 +6,5 @@ ROUND((AVG(trabalhos.MAX_SALARY))/12, 2) AS 'Média máxima mensal'
 FROM hr.employees AS trabalhadores
 INNER JOIN jobs AS trabalhos
 ON trabalhadores.JOB_ID = trabalhos.JOB_ID
-GROUP BY trabalhos.JOB_TITLE
+GROUP BY `Cargo`
 ORDER BY `Variação Salarial`, Cargo;
