@@ -6,6 +6,6 @@ CONCAT(tableEmployees2.FIRST_NAME, ' ', tableEmployees2.LAST_NAME) AS 'Nome comp
 tableEmployees2.SALARY AS 'Salário funcionário 2',
 tableEmployees2.PHONE_NUMBER AS 'Telefone funcionário 2'
 FROM hr.employees AS tableEmployees, hr.employees AS tableEmployees2
-WHERE tableEmployees.FIRST_NAME <> tableEmployees2.FIRST_NAME
+WHERE tableEmployees.EMPLOYEE_ID <> tableEmployees2.EMPLOYEE_ID
 AND tableEmployees.JOB_ID = tableEmployees2.JOB_ID
 ORDER BY `Nome completo funcionário 1`, `Nome completo funcionário 2`;
