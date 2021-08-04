@@ -1,5 +1,5 @@
 SELECT
-CONCAT(tableEmployees.FirstName, ' ', tableEmployees.LastName) AS 'Nome Completo',
+CONCAT(tableEmployees.FirstName, ' ', tableEmployees.LastName) AS 'Nome completo',
 COUNT(tableOrders.EmployeeID) AS 'Total de pedidos'
 FROM w3schools.employees AS tableEmployees
 INNER JOIN w3schools.orders AS tableOrders ON tableOrders.EmployeeID = tableEmployees.EmployeeID

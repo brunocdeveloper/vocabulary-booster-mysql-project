@@ -1,5 +1,5 @@
 SELECT
-tableCustomers.ContactName AS 'Nome de Contato',
+tableCustomers.ContactName AS 'Nome de contato',
 tableShippers.ShipperName AS 'Empresa que fez o envio',
 tableOrders.OrderDate AS 'Data do pedido'
 FROM w3schools.customers AS tableCustomers
