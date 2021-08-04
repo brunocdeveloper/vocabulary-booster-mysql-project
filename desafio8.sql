@@ -9,4 +9,3 @@ ON tableShippers.ShipperID = tableOrders.ShipperID
 AND tableCustomers.CustomerID = tableOrders.CustomerID
 WHERE tableShippers.ShipperID IN (1, 2)
 ORDER BY `Nome de Contato`, `Empresa que fez o envio`, `Data do pedido`;
-
