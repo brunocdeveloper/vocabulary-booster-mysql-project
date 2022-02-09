@@ -1,3 +1,5 @@
+# Bem vindo ao repositório do projeto Vocabulary Booster
+
 # Habilidades
 Neste projeto, verificamos se voce é capaz de:
 
@@ -25,8 +27,22 @@ Neste projeto, verificamos se voce é capaz de:
 
 ---
 
+# Instalação do projeto localmente
+Caso tenho alguma dificuldade com a instalação do projeto, me contate através do e-mail: brunocmoraes97@gmail.com.
 
-# Entregáveis
+  1. Abra o terminal e crie um diretório local executando o comando abaixo:
+  ```javascript
+    mkdir all-for-one-brunocdeveloper-project
+  ```
+  2. Entre no diretório criado e clone o projeto
+  ```javascript
+    cd all-for-one-brunocdeveloper-project
+    git clone git@github.com:brunocdeveloper/all-for-one-mysql-project.git
+  ```
+  3. Faça o download dos arquivos de backup ```javascript W3Schools e HR``` [aqui](w3schools.sql) e [aqui](hr.sql).
+  4. Abra os arquivos através do WorkBench e executes clicando no ícone de trovão.
+  5. Espere alguns segundos e atualize a listagem de banco de dados.
+
 
 ## O que deverá ser desenvolvido
 
